@@ -1,0 +1,35 @@
+{
+  "name": "vue-manage-system",
+  "version": "4.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-vue": "^2.1.0",
+    "axios": "^0.19.0",
+    "babel-polyfill": "^6.26.0",
+    "echarts": "^4.7.0",
+    "element-ui": "^2.13.2",
+    "file-saver": "^2.0.2",
+    "mavon-editor": "^2.6.17",
+    "moment": "^2.24.0",
+    "vue": "^2.5.21",
+    "vue-cropperjs": "^3.0.0",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.0.1",
+    "vue-schart": "^1.0.0",
+    "vue-tinymce-editor": "^1.6.2",
+    "vuedraggable": "^2.17.0",
+    "xlsx": "^0.15.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-service": "^3.7.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
